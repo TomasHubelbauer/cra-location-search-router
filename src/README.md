@@ -24,3 +24,5 @@ are URLs which are actually pointing to `index.html`, so the route is always
 correct even if using a plain file server. In this repository I prototype the
 search approach, but the hash approach would be even better. I will prototype
 that in a different repo.
+
+https://github.com/TomasHubelbauer/cra-location-hash-router

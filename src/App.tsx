@@ -17,7 +17,7 @@ export default class App extends Component {
       case '': return <Home navigate={this.navigate} />;
       case 'items': return <Items navigate={this.navigate} />;
       case 'item': return <Item id={Number(id)} navigate={this.navigate} />;
-      default: return <Error route={location.pathname} navigate={this.navigate} />;
+      default: return <Error route={location.search} navigate={this.navigate} />;
     }
   }
 
